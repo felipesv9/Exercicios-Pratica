@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-float main()
+int main()
 {
     float nota1,nota2,nota3, media;
     printf("digite sua nota1: ");
