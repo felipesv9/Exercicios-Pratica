@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int nota1,nota2,nota3, media;
+    printf("digite sua nota1: ");
+    scanf("%d", &nota1);
+    
+    printf("digite sua nota2: ");
+    scanf("%d", &nota2);
+    
+    printf("digite sua nota3: ");
+    scanf("%d", &nota3);
+    
+    media=(nota1+nota2+nota3)/3;
+    printf("sua media e; %d", media);
+    
+    return 0;
+}
